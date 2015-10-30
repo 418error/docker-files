@@ -48,17 +48,25 @@ http://your-docker-machine-ip:10023/hello
 
 If alls good you should see a hello message :)
 
+## Coming soon
+• Different java example
+
+• Smaller image size
+
+## Tag History
+
+
+#### [trusty-openjdk8-gradle2.8][trusty-openjdk8-gradle2.8]
+  * Built on [Ubuntu 14.04 Trusty Docker official image][docker-ubuntu]
+  * Contains OpenJDK 8 (1.8.0_45-internal)
+  * Contains Gradle 2.8
+
+
 
 [docker-user-guide]: https://docs.docker.com/userguide/
 [ubuntu]: http://releases.ubuntu.com/
 [openjdk]: http://openjdk.java.net/install/
 [gradle]: http://gradle.org/gradle-download/
 [simple-spark-api]: https://github.com/lendmeapound/simple-spark-api
-
-
-## Coming soon
-• Different java example
-
-• Smaller image size
-
-## Tag
+[trusty-openjdk8-gradle2.8]:https://github.com/lendmeapound/docker-files/tree/trusty-openjdk8-gradle2.8
+[docker-ubuntu]:https://hub.docker.com/_/ubuntu/
